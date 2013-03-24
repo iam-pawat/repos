@@ -1,8 +1,9 @@
 package com.pernix.log;
+// for logging to console
 public class ConsoleLogging implements ILog {
-
+//5555
 	private void writeLog(String message){
-		System.out.println(message);
+		System.out.println(message + "");
 	}
 	@Override
 	public void Debug(String message) {
